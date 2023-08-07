@@ -3,6 +3,7 @@ from tkinter import *
 from tkinter.ttk import *
 from time import *
 from tkinter.dialog import *
+DIALOG_ICON = 'questhead'
 
 #time
 root = Tk()
@@ -20,13 +21,12 @@ lbl.pack(anchor='center')
 
 def hud1():
         h1 = Dialog(None,{
-                title="HUD1"
-                text="Fighter Jet:",
-                buttons=["F-14", "F-15", "F-16", "F-22", "Cancel"],
-                default=0,
-                cancel=4,
-                     )
-        print(h1.go())
+                "title":"HUD1",
+                "text":"Fighter Jet:",
+                "strings":("F-14", "F-15", "F-16", "F-22", "Cancel"),
+                "bitmap":DIALOG_ICON,
+                "default":2
+                })
 
  
 
