@@ -2,4 +2,4 @@ Fly-by-Wire
 Performance: fuel, AoA, munitions, radar, equipment, 
 
 
-Instrument Panel: Engine, primeeeeeeeeeeeeeeeeeeeee
+Instrument Panel: Engine,
